@@ -1,7 +1,105 @@
 h1{
-color: red;
+color: #ECABF1;
+font-family: monospace;
+text-align: center;
+text-decoration: none;
+font-size: 70px;
 
 }
 body{
   background-color: black;
+}
+
+h2{
+  color: #ECABF1;
+  font-family: monospace;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+
+
+
+  }
+
+  .banner {
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    padding: 30px 0px;
+    margin: 16%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    /*! border-radius: 5px; */
+    /*! border-color:rgb(228, 157, 214) ; */
+    /*! border-style:solid; */
+    /* box-shadow: 25px 25px 20px#ff94e5; */
+    /*! text-decoration: none; */
+
+  }
+
+
+  .banner h2 {
+    font-size: 30px;
+    color: rgb(228, 157, 214);
+    opacity: .7;
+    /* text-shadow:  3px 3px 20px rgb(238, 149, 195); */
+    font-family:monospace;
+    margin: 10px;
+    text-decoration: none;
+  }
+
+  p {
+    /* margin: 5; */
+
+    // /* text-shadow: 1px 1px 3px #ff94e5; */
+    // font-size: 32px;
+    // font-weight: bold;
+    // text-align: center;
+
+  }
+
+  .banner p {
+    font-size: 30px;
+    color: rgb(228, 157, 214);
+    opacity: .7;
+    /* text-shadow:  3px 3px 20px rgb(238, 149, 195); */
+    font-family:monospace;
+    margin: 10px;
+
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.links {
+  margin: auto;
+  padding: 30px;
 }
