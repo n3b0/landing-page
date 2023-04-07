@@ -23,6 +23,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-size: 100%;
+
 }
 @media (min-width: 58em) {
   body {
@@ -82,7 +83,7 @@ h6 a,
 .h6 a,
 .content-blog p a {
   font-size: inherit;
-  font-family: monospace;
+  font-family: dinoSaur;
 }
 
 .content-blog {
@@ -143,7 +144,8 @@ td,
 small,
 .media h5,
 .subtitle {
-  font-family: monospace;
+  font-family: dinoSaur;
+
 }
 
 a {
@@ -165,7 +167,7 @@ a:hover {
 }
 
 .title-modern {
-  font-family: monospace;
+  font-family: dinoSaur;
   font-weight: 300;
 }
 
