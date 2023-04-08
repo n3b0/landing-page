@@ -169,6 +169,7 @@ a:hover {
 .title-modern {
   font-family: dinoSaur;
   font-weight: 300;
+  margin-top: 100px;
 }
 
 .text-gray {
@@ -3740,5 +3741,46 @@ body {
 @media (min-width: 992px) {
   .section-pricing .row [class^="col-"] {
     padding: 0;
+  }
+}
+nav {
+  background-color: #333;
+  height: 60px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+li {
+  padding: 0 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  nav {
+    height: auto;
+  }
+
+  ul {
+    flex-direction: column;
+    height: auto;
+  }
+
+  li {
+    width: 100%;
+    text-align: center;
   }
 }
